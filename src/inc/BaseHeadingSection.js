@@ -4,9 +4,9 @@ export default function BaseHeadingSection({heading, subheading, italicsHeading}
       <p className="text-xs text-secondary capitalize mb-2 font-bold tracking-wide ">
         {subheading}
       </p>
-      <h2 className="text-2xl font-semibold">
+      <h2 className="text-xl font-semibold">
         {heading}
-        <em className="text-main block font-normal leading-4"> {italicsHeading}</em>
+        <em className="text-main block text-base font-normal leading-4"> {italicsHeading}</em>
       </h2>
     </div>
   );
